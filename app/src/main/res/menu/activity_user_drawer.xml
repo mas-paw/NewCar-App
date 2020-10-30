@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/user_home_group">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+    </group>
+    <group android:id="@+id/user_mobil_group">
+        <item
+            android:id="@+id/nav_mobil_user"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="Daftar Mobil" />
+    </group>
+    <group android:id="@+id/user_status_group">
+        <item
+            android:id="@+id/nav_status_user"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Status" />
+    </group>
+    <group android:id="@+id/user_exit_group">
+        <item
+            android:id="@+id/nav_sign_out_user"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/menu_sign_out" />
+    </group>
+
+
+    <item android:title="Menu Admin">
+        <menu>
+            <item
+                android:id="@+id/login_admin"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Login Admin"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/karyawan_group">
+        <item
+            android:id="@+id/nav_karyawan"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/menu_karyawan" />
+    </group>
+    <group android:id="@+id/supir_group">
+        <item
+            android:id="@+id/nav_supir"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            android:title="@string/menu_supir" />
+    </group>
+    <group android:id="@+id/mobil_group">
+        <item
+            android:id="@+id/nav_mobil"
+            android:icon="@drawable/ic_directions_car_black_24dp"
+            android:title="@string/menu_mobil" />
+    </group>
+    <group android:id="@+id/status_group">
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/menu_status" />
+    </group>
+
+    <group android:id="@+id/report_group">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_content_copy_black_24dp"
+            android:title="Laporan" />
+    </group>
+
+    <group android:id="@+id/user_group">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/menu_sign_out" />
+    </group>
+
+</menu>

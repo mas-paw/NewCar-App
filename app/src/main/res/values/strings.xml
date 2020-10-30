@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">NewCar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_karyawan">Data Karyawan</string>
+    <string name="menu_supir">Data Supir</string>
+    <string name="menu_mobil">Data Mobil</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_sign_out">Keluar</string>
+
+    <string name="welcome">ObetRentCar</string>
+
+
+    <string name="tambah_karyawan">Tambah Data Karyawan</string>
+    <string name="edit_karyawan">Ubah Data Karyawan</string>
+    <string name="delete_karyawan">Hapus Data Karyawan</string>
+    <string name="data_karyawan">Data Karyawan</string>
+
+    <string name="tambah_supir">Tambah Data Supir</string>
+    <string name="edit_supir">Ubah Data Supir</string>
+    <string name="delete_supir">Hapus Data Supir</string>
+    <string name="data_supir">Data Supir</string>
+
+    <string name="tambah_mobil">Tambah Data Mobil</string>
+    <string name="edit_mobil">Ubah Data Mobil</string>
+    <string name="delete_mobil">Hapus Data Mobil</string>
+    <string name="data_mobil">Data Mobil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="menu_mobil_user">Daftar Mobil</string>
+    <string name="menu_status_user">Status</string>
+
+    <string-array name="supir">
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.pawji.newcar.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mobil_user"
+        android:name="com.pawji.newcar.ui.mobil.MobilUserFragment"
+        android:label= "@string/menu_mobil_user"
+        tools:layout="@layout/fragment_mobil_user" />
+
+    <fragment
+        android:id="@+id/nav_status_user"
+        android:name="com.pawji.newcar.ui.status.StatusUserFragment"
+        android:label="@string/menu_status_user"
+        tools:layout="@layout/fragment_status_user" />
+
+    <fragment
+        android:id="@+id/nav_pemesanan"
+        android:name="com.pawji.newcar.ui.pemesanan.PemesananFragment"
+        android:label="Pemesanan"
+        tools:layout="@layout/fragment_pemesanan"/>
+    <fragment
+        android:id="@+id/nav_edit_pemesanan"
+        android:name="com.pawji.newcar.ui.pemesanan.EditPemesananFragment"
+        android:label="Edit Pemesanan"
+        tools:layout="@layout/fragment_edit_pemesanan"/>
+
+</navigation>

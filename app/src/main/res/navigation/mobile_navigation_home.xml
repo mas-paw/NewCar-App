@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_karyawan">
+
+    <fragment
+        android:id="@+id/nav_karyawan"
+        android:name="com.pawji.newcar.ui.karyawan.KaryawanFragment"
+        android:label="@string/menu_karyawan"
+        tools:layout="@layout/fragment_karyawan" />
+
+    <fragment
+        android:id="@+id/nav_supir"
+        android:name="com.pawji.newcar.ui.supir.SupirFragment"
+        android:label="@string/menu_supir"
+        tools:layout="@layout/fragment_supir" />
+
+    <fragment
+        android:id="@+id/nav_mobil"
+        android:name="com.pawji.newcar.ui.mobil.MobilFragment"
+        android:label="@string/menu_mobil"
+        tools:layout="@layout/fragment_mobil" />
+
+    <fragment
+        android:id="@+id/nav_status"
+        android:name="com.pawji.newcar.ui.status.StatusFragment"
+        android:label="@string/menu_status"
+        tools:layout="@layout/fragment_status" />
+
+    <fragment
+        android:id="@+id/nav_tambah_karyawan"
+        android:name="com.pawji.newcar.ui.karyawan.KaryawanTambah"
+        android:label="Tambah Karyawan"
+        tools:layout="@layout/fragment_karyawan_tambah"/>
+
+    <fragment
+        android:id="@+id/nav_detail_karyawan"
+        android:name="com.pawji.newcar.ui.karyawan.KaryawanDetail"
+        android:label="Detail Karyawan"
+        tools:layout="@layout/activity_karyawan_detail"/>
+
+    <fragment
+        android:id="@+id/nav_tambah_supir"
+        android:name="com.pawji.newcar.ui.supir.SupirTambah"
+        android:label="Tambah Supir"
+        tools:layout="@layout/fragment_supir_tambah"/>
+    <fragment
+        android:id="@+id/nav_report"
+        android:name="com.pawji.newcar.ui.report.ReportFragment"
+        android:label="Laporan"
+        tools:layout="@layout/fragment_report"/>
+
+</navigation>
